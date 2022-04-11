@@ -13,8 +13,11 @@ h1{
     color: orange;
 }
 
-.top-section{
+section{
     display: flex;
+    margin-bottom: 50px;
+}
+.top-section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -37,4 +40,10 @@ h1{
     font-weight: bold;
     padding: 10px 40px;
     border-radius: 10px;
+}
+
+.second-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
